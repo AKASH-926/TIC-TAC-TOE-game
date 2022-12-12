@@ -1,7 +1,12 @@
 import "./App.css";
+import Game from "./Components/game";
 
 function App() {
-  return <>Hello</>;
+  return (
+    <>
+      <Game />
+    </>
+  );
 }
 
 export default App;
