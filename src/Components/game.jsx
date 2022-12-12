@@ -66,6 +66,9 @@ export default function Game() {
         <>
             <div id='wrapper'>
                 <h1 id='tic-head'>TIC-TAC-TOE</h1>
+                <div>
+                    <p id='winner' ref={ansref}></p>
+                </div>
                 <div id='main-container'>
                     <div className='row'>
                         <div className='cell' id='c1' onClick={() => {
@@ -90,9 +93,7 @@ export default function Game() {
                 <div>
                     <button id='btn' onClick={reset}>RESET</button>
                 </div>
-                <div>
-                    <p id='winner' ref={ansref}></p>
-                </div>
+
             </div>
 
 

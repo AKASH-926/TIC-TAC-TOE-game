@@ -16,31 +16,31 @@ body {
 #tic-head {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 80px;
+    font-size: 50px;
     color: rgba(22, 91, 187, 0.801);
 }
 
 #main-container {
-    width: 500px;
-    height: 500px;
-    border: 8px solid black;
+    width: 400px;
+    height: 400px;
+    border: 10px solid black;
 }
 
 .row {
-    width: 500px;
-    height: 166px;
+    width: 402px;
+    height: 132px;
     border-bottom: 3px solid black;
     display: flex;
 }
 
 .cell {
-    width: 166px;
-    height: 166px;
+    width: 132px;
+    height: 132px;
     border-right: 3px solid black;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 90px;
+    font-size: 80px;
     cursor: pointer;
 }
 
@@ -69,6 +69,6 @@ body {
 #winner {
     margin-top: 0;
     margin-bottom: 0;
-    font-size: 70px;
+    font-size: 50px;
     letter-spacing: 8px;
 }
